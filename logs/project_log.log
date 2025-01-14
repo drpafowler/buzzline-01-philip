@@ -1,42 +1,52 @@
-2025-01-14 08:55:47.456 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
-2025-01-14 08:55:47.457 | INFO     | __main__:main:91 - START producer...
-2025-01-14 08:55:47.457 | INFO     | __main__:main:92 - Hit CTRL c (or CMD c) to close.
-2025-01-14 08:55:47.457 | INFO     | __main__:get_hand_interval:53 - Hands will be sent every 3 seconds.
-2025-01-14 08:55:47.457 | INFO     | __main__:main:99 - ('Q', 'Clubs')
-2025-01-14 08:55:50.458 | INFO     | __main__:main:99 - ('10', 'Diamonds')
-2025-01-14 08:55:53.459 | INFO     | __main__:main:99 - ('3', 'Diamonds')
-2025-01-14 08:55:56.460 | INFO     | __main__:main:99 - ('2', 'Hearts')
-2025-01-14 08:56:45.307 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
-2025-01-14 08:56:45.307 | INFO     | __main__:main:91 - START producer...
-2025-01-14 08:56:45.307 | INFO     | __main__:main:92 - Hit CTRL c (or CMD c) to close.
-2025-01-14 08:56:45.307 | INFO     | __main__:get_hand_interval:53 - Hands will be sent every 3 seconds.
-2025-01-14 08:56:45.307 | INFO     | __main__:main:100 - [('8', 'Hearts'), ('Q', 'Clubs'), ('9', 'Diamonds'), ('6', 'Clubs'), ('8', 'Diamonds')]
-2025-01-14 08:56:48.313 | INFO     | __main__:main:100 - [('8', 'Spades'), ('9', 'Spades'), ('7', 'Clubs'), ('7', 'Spades'), ('8', 'Diamonds')]
-2025-01-14 08:56:51.314 | INFO     | __main__:main:100 - [('A', 'Hearts'), ('K', 'Hearts'), ('K', 'Clubs'), ('6', 'Spades'), ('J', 'Spades')]
-2025-01-14 08:56:54.315 | INFO     | __main__:main:100 - [('9', 'Hearts'), ('J', 'Spades'), ('10', 'Spades'), ('7', 'Clubs'), ('4', 'Spades')]
-2025-01-14 08:56:57.316 | INFO     | __main__:main:100 - [('A', 'Clubs'), ('A', 'Spades'), ('Q', 'Clubs'), ('K', 'Clubs'), ('9', 'Clubs')]
-2025-01-14 08:57:00.318 | INFO     | __main__:main:100 - [('J', 'Hearts'), ('3', 'Hearts'), ('9', 'Clubs'), ('10', 'Clubs'), ('10', 'Diamonds')]
-2025-01-14 09:06:23.832 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
-2025-01-14 09:06:23.832 | INFO     | __main__:main:91 - START producer...
-2025-01-14 09:06:23.832 | INFO     | __main__:main:92 - Hit CTRL c (or CMD c) to close.
-2025-01-14 09:06:23.832 | INFO     | __main__:get_hand_interval:53 - Hands will be sent every 3 seconds.
-2025-01-14 09:06:23.832 | INFO     | __main__:main:100 - [('7', 'Hearts'), ('Q', 'Spades'), ('4', 'Hearts'), ('4', 'Clubs'), ('10', 'Diamonds')]
-2025-01-14 09:06:26.842 | INFO     | __main__:main:100 - [('J', 'Hearts'), ('5', 'Spades'), ('7', 'Clubs'), ('8', 'Clubs'), ('A', 'Hearts')]
-2025-01-14 09:06:29.843 | INFO     | __main__:main:100 - [('5', 'Hearts'), ('7', 'Hearts'), ('A', 'Spades'), ('K', 'Clubs'), ('K', 'Hearts')]
-2025-01-14 09:06:32.844 | INFO     | __main__:main:100 - [('10', 'Hearts'), ('Q', 'Diamonds'), ('8', 'Diamonds'), ('6', 'Hearts'), ('K', 'Hearts')]
-2025-01-14 09:06:35.845 | INFO     | __main__:main:100 - [('10', 'Diamonds'), ('A', 'Hearts'), ('K', 'Spades'), ('2', 'Spades'), ('9', 'Diamonds')]
-2025-01-14 09:06:38.847 | INFO     | __main__:main:100 - [('2', 'Diamonds'), ('A', 'Diamonds'), ('9', 'Clubs'), ('7', 'Hearts'), ('9', 'Diamonds')]
-2025-01-14 09:06:41.847 | INFO     | __main__:main:100 - [('Q', 'Spades'), ('K', 'Hearts'), ('4', 'Clubs'), ('7', 'Hearts'), ('2', 'Clubs')]
-2025-01-14 09:06:44.849 | INFO     | __main__:main:100 - [('7', 'Diamonds'), ('10', 'Diamonds'), ('9', 'Hearts'), ('J', 'Hearts'), ('Q', 'Diamonds')]
-2025-01-14 09:06:47.850 | INFO     | __main__:main:100 - [('7', 'Diamonds'), ('6', 'Hearts'), ('K', 'Diamonds'), ('2', 'Clubs'), ('Q', 'Diamonds')]
-2025-01-14 09:06:50.851 | INFO     | __main__:main:100 - [('6', 'Diamonds'), ('8', 'Clubs'), ('5', 'Clubs'), ('4', 'Hearts'), ('J', 'Diamonds')]
-2025-01-14 09:06:53.852 | INFO     | __main__:main:100 - [('J', 'Diamonds'), ('2', 'Diamonds'), ('J', 'Hearts'), ('2', 'Hearts'), ('4', 'Spades')]
-2025-01-14 09:06:56.852 | INFO     | __main__:main:100 - [('3', 'Diamonds'), ('5', 'Diamonds'), ('9', 'Spades'), ('J', 'Diamonds'), ('3', 'Clubs')]
-2025-01-14 09:07:36.030 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
-2025-01-14 09:07:36.030 | INFO     | __main__:main:72 - START...
-2025-01-14 09:07:36.030 | INFO     | __main__:main:78 - Reading file located at logs\project_log.log.
-2025-01-14 09:07:43.783 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
-2025-01-14 09:07:43.783 | INFO     | __main__:main:91 - START producer...
-2025-01-14 09:07:43.783 | INFO     | __main__:main:92 - Hit CTRL c (or CMD c) to close.
-2025-01-14 09:07:43.783 | INFO     | __main__:get_hand_interval:53 - Hands will be sent every 3 seconds.
-2025-01-14 09:07:43.783 | INFO     | __main__:main:100 - [('5', 'Spades'), ('4', 'Diamonds'), ('Q', 'Clubs'), ('8', 'Diamonds'), ('5', 'Clubs')]
+2025-01-14 09:14:03.369 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-14 09:14:03.369 | INFO     | __main__:main:91 - START producer...
+2025-01-14 09:14:03.370 | INFO     | __main__:main:92 - Hit CTRL c (or CMD c) to close.
+2025-01-14 09:14:03.370 | INFO     | __main__:get_hand_interval:53 - Hands will be sent every 3 seconds.
+2025-01-14 09:14:03.370 | INFO     | __main__:main:100 - [('Q', 'Hearts'), ('J', 'Spades'), ('3', 'Clubs'), ('7', 'Spades'), ('5', 'Hearts')]
+2025-01-14 09:14:06.370 | INFO     | __main__:main:100 - [('A', 'Spades'), ('6', 'Clubs'), ('7', 'Spades'), ('3', 'Spades'), ('K', 'Spades')]
+2025-01-14 09:14:08.811 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-14 09:14:08.811 | INFO     | __main__:main:72 - START...
+2025-01-14 09:14:08.811 | INFO     | __main__:main:78 - Reading file located at logs\project_log.log.
+2025-01-14 09:14:09.372 | INFO     | __main__:main:100 - [('9', 'Hearts'), ('5', 'Diamonds'), ('2', 'Hearts'), ('10', 'Clubs'), ('8', 'Hearts')]
+2025-01-14 09:14:12.373 | INFO     | __main__:main:100 - [('K', 'Hearts'), ('A', 'Hearts'), ('A', 'Diamonds'), ('A', 'Clubs'), ('Q', 'Spades')]
+2025-01-14 09:14:15.375 | INFO     | __main__:main:100 - [('10', 'Diamonds'), ('J', 'Diamonds'), ('6', 'Spades'), ('J', 'Spades'), ('J', 'Clubs')]
+2025-01-14 09:14:18.376 | INFO     | __main__:main:100 - [('4', 'Clubs'), ('6', 'Hearts'), ('2', 'Clubs'), ('4', 'Diamonds'), ('5', 'Hearts')]
+2025-01-14 09:14:21.377 | INFO     | __main__:main:100 - [('Q', 'Hearts'), ('8', 'Hearts'), ('J', 'Hearts'), ('Q', 'Diamonds'), ('3', 'Spades')]
+2025-01-14 09:14:24.378 | INFO     | __main__:main:100 - [('Q', 'Hearts'), ('3', 'Spades'), ('6', 'Hearts'), ('5', 'Clubs'), ('K', 'Hearts')]
+2025-01-14 09:14:27.379 | INFO     | __main__:main:100 - [('3', 'Spades'), ('3', 'Clubs'), ('J', 'Diamonds'), ('7', 'Hearts'), ('7', 'Spades')]
+2025-01-14 09:14:30.381 | INFO     | __main__:main:100 - [('8', 'Diamonds'), ('6', 'Hearts'), ('7', 'Spades'), ('5', 'Clubs'), ('J', 'Clubs')]
+2025-01-14 09:14:33.382 | INFO     | __main__:main:100 - [('K', 'Spades'), ('6', 'Hearts'), ('4', 'Spades'), ('K', 'Hearts'), ('7', 'Spades')]
+2025-01-14 09:14:36.383 | INFO     | __main__:main:100 - [('9', 'Spades'), ('J', 'Spades'), ('Q', 'Spades'), ('4', 'Diamonds'), ('Q', 'Clubs')]
+2025-01-14 09:14:39.384 | INFO     | __main__:main:100 - [('6', 'Spades'), ('8', 'Hearts'), ('4', 'Hearts'), ('J', 'Spades'), ('7', 'Spades')]
+2025-01-14 09:14:42.386 | INFO     | __main__:main:100 - [('6', 'Clubs'), ('9', 'Clubs'), ('8', 'Diamonds'), ('J', 'Diamonds'), ('9', 'Spades')]
+2025-01-14 09:14:45.388 | INFO     | __main__:main:100 - [('9', 'Hearts'), ('J', 'Spades'), ('3', 'Spades'), ('5', 'Clubs'), ('5', 'Hearts')]
+2025-01-14 09:14:48.390 | INFO     | __main__:main:100 - [('6', 'Clubs'), ('A', 'Hearts'), ('Q', 'Diamonds'), ('9', 'Hearts'), ('7', 'Hearts')]
+2025-01-14 09:14:51.392 | INFO     | __main__:main:100 - [('10', 'Diamonds'), ('8', 'Clubs'), ('4', 'Spades'), ('10', 'Clubs'), ('9', 'Clubs')]
+2025-01-14 09:14:54.392 | INFO     | __main__:main:100 - [('6', 'Hearts'), ('10', 'Clubs'), ('J', 'Diamonds'), ('9', 'Clubs'), ('A', 'Clubs')]
+2025-01-14 09:14:57.393 | INFO     | __main__:main:100 - [('J', 'Spades'), ('8', 'Hearts'), ('3', 'Diamonds'), ('Q', 'Diamonds'), ('4', 'Diamonds')]
+2025-01-14 09:15:00.395 | INFO     | __main__:main:100 - [('7', 'Hearts'), ('3', 'Spades'), ('K', 'Clubs'), ('2', 'Spades'), ('3', 'Hearts')]
+2025-01-14 09:15:03.397 | INFO     | __main__:main:100 - [('6', 'Clubs'), ('6', 'Hearts'), ('K', 'Clubs'), ('3', 'Hearts'), ('Q', 'Clubs')]
+2025-01-14 09:15:06.399 | INFO     | __main__:main:100 - [('Q', 'Diamonds'), ('3', 'Diamonds'), ('4', 'Hearts'), ('A', 'Clubs'), ('5', 'Spades')]
+2025-01-14 09:15:09.400 | INFO     | __main__:main:100 - [('K', 'Hearts'), ('9', 'Hearts'), ('10', 'Clubs'), ('10', 'Diamonds'), ('4', 'Hearts')]
+2025-01-14 09:15:12.401 | INFO     | __main__:main:100 - [('K', 'Diamonds'), ('K', 'Spades'), ('J', 'Spades'), ('6', 'Spades'), ('3', 'Clubs')]
+2025-01-14 09:15:15.402 | INFO     | __main__:main:100 - [('J', 'Diamonds'), ('9', 'Spades'), ('K', 'Clubs'), ('Q', 'Spades'), ('Q', 'Clubs')]
+2025-01-14 09:15:18.403 | INFO     | __main__:main:100 - [('Q', 'Hearts'), ('2', 'Hearts'), ('K', 'Diamonds'), ('8', 'Hearts'), ('J', 'Diamonds')]
+2025-01-14 09:15:21.405 | INFO     | __main__:main:100 - [('8', 'Spades'), ('10', 'Hearts'), ('9', 'Hearts'), ('7', 'Hearts'), ('10', 'Clubs')]
+2025-01-14 09:15:24.406 | INFO     | __main__:main:100 - [('A', 'Spades'), ('6', 'Hearts'), ('10', 'Spades'), ('7', 'Spades'), ('4', 'Clubs')]
+2025-01-14 09:15:27.407 | INFO     | __main__:main:100 - [('3', 'Spades'), ('J', 'Clubs'), ('2', 'Clubs'), ('A', 'Clubs'), ('5', 'Spades')]
+2025-01-14 09:15:30.408 | INFO     | __main__:main:100 - [('4', 'Diamonds'), ('5', 'Hearts'), ('8', 'Diamonds'), ('4', 'Spades'), ('7', 'Clubs')]
+2025-01-14 09:15:33.410 | INFO     | __main__:main:100 - [('8', 'Hearts'), ('4', 'Clubs'), ('9', 'Diamonds'), ('7', 'Hearts'), ('J', 'Clubs')]
+2025-01-14 09:15:36.411 | INFO     | __main__:main:100 - [('6', 'Diamonds'), ('K', 'Spades'), ('8', 'Diamonds'), ('8', 'Spades'), ('3', 'Hearts')]
+2025-01-14 09:15:39.413 | INFO     | __main__:main:100 - [('10', 'Spades'), ('Q', 'Hearts'), ('8', 'Clubs'), ('5', 'Clubs'), ('A', 'Hearts')]
+2025-01-14 09:15:42.414 | INFO     | __main__:main:100 - [('9', 'Diamonds'), ('6', 'Hearts'), ('9', 'Spades'), ('3', 'Spades'), ('5', 'Diamonds')]
+2025-01-14 09:15:45.416 | INFO     | __main__:main:100 - [('9', 'Clubs'), ('5', 'Diamonds'), ('9', 'Hearts'), ('2', 'Clubs'), ('J', 'Spades')]
+2025-01-14 09:15:48.418 | INFO     | __main__:main:100 - [('4', 'Hearts'), ('A', 'Diamonds'), ('5', 'Diamonds'), ('6', 'Diamonds'), ('4', 'Clubs')]
+2025-01-14 09:15:51.419 | INFO     | __main__:main:100 - [('A', 'Spades'), ('4', 'Diamonds'), ('Q', 'Hearts'), ('9', 'Diamonds'), ('J', 'Hearts')]
+2025-01-14 09:15:54.420 | INFO     | __main__:main:100 - [('A', 'Hearts'), ('A', 'Diamonds'), ('5', 'Hearts'), ('2', 'Clubs'), ('6', 'Clubs')]
+2025-01-14 09:15:57.422 | INFO     | __main__:main:100 - [('A', 'Clubs'), ('7', 'Diamonds'), ('8', 'Diamonds'), ('K', 'Clubs'), ('5', 'Spades')]
+2025-01-14 09:16:00.424 | INFO     | __main__:main:100 - [('K', 'Spades'), ('A', 'Diamonds'), ('2', 'Diamonds'), ('5', 'Diamonds'), ('3', 'Diamonds')]
+2025-01-14 09:16:03.426 | INFO     | __main__:main:100 - [('K', 'Hearts'), ('5', 'Diamonds'), ('A', 'Clubs'), ('J', 'Spades'), ('9', 'Clubs')]
+2025-01-14 09:16:06.428 | INFO     | __main__:main:100 - [('8', 'Spades'), ('A', 'Spades'), ('A', 'Diamonds'), ('9', 'Diamonds'), ('8', 'Clubs')]
+2025-01-14 09:16:09.428 | INFO     | __main__:main:100 - [('4', 'Hearts'), ('3', 'Clubs'), ('A', 'Hearts'), ('K', 'Diamonds'), ('6', 'Spades')]
+2025-01-14 09:16:12.429 | INFO     | __main__:main:100 - [('5', 'Hearts'), ('2', 'Diamonds'), ('2', 'Hearts'), ('8', 'Spades'), ('6', 'Diamonds')]
+2025-01-14 09:16:16.193 | INFO     | __main__:main:89 - END.....
