@@ -1,7 +1,7 @@
 """
-basic_generator_case.py
+basic_generator_philip.py
 
-Generate some streaming buzz messages. 
+Generate some streaming poker hands. 
 """
 
 #####################################
@@ -30,10 +30,10 @@ load_dotenv()
 # Define Getter Functions for .env Variables
 #####################################
 
-# Define a function to fetch the message interval from the environment
-def get_message_interval() -> int:
+# Define a function to fetch the hand interval from the environment
+def get_hand_interval() -> int:
     """
-    Fetch message interval from environment or use a default value.
+    Fetch hand interval from environment or use a default value.
 
     It doesn't need any outside information, so the parentheses are empty.
     It returns an integer, so we specify that in the function signature.
@@ -48,42 +48,27 @@ def get_message_interval() -> int:
     To use handy functions like this, import the os module 
     from the Python Standard Library (see above).
     """
-    return_value: str = os.getenv("MESSAGE_INTERVAL_SECONDS", 3)
+    return_value: str = os.getenv("HAND_INTERVAL_SECONDS", 3)
     interval: int = int(return_value)
-    logger.info(f"Messages will be sent every {interval} seconds.")
+    logger.info(f"Hands will be sent every {interval} seconds.")
     return interval
 
 
 #####################################
-# Define global variables
+# Define poker hand generator
 #####################################
 
-# Define some lists for generating buzz messages
-ADJECTIVES: list = ["amazing", "funny", "boring", "exciting", "weird"]
-ACTIONS: list = ["found", "saw", "tried", "shared", "loved"]
-TOPICS: list = ["a movie", "a meme", "an app", "a trick", "a story"]
+def generate_hand(num_cards=5):
+    """Generates a poker hand of the specified number of cards."""
 
-#####################################
-# Define a function to generate buzz messages
-#####################################
+    suits = ["Hearts", "Diamonds", "Clubs", "Spades"]
+    ranks = ["2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A"]
 
+    deck = [(rank, suit) for rank in ranks for suit in suits]
+    random.shuffle(deck)
 
-def generate_messages():
-    """
-    Generate a stream of buzz messages.
+    return deck[:num_cards]
 
-    This function uses a generator, which yields one buzz at a time.
-    Generators are memory-efficient because they produce items on the fly
-    rather than creating a full list in memory.
-
-    Because this function uses a while True loop, it will run continuously 
-    until we close the window or hit CTRL c (CMD c on Mac/Linux).
-    """
-    while True:
-        adjective = random.choice(ADJECTIVES)
-        action = random.choice(ACTIONS)
-        topic = random.choice(TOPICS)
-        yield f"I just {action} {topic}! It was {adjective}."
 
 
 #####################################
@@ -106,12 +91,13 @@ def main() -> None:
     logger.info("START producer...")
     logger.info("Hit CTRL c (or CMD c) to close.")
     
-    # Call the function we defined above to get the message interval
+    # Call the function we defined above to get the hand interval
     # Assign the return value to a variable called interval_secs
-    interval_secs: int = get_message_interval()
+    interval_secs: int = get_hand_interval()
 
-    for message in generate_messages():
-        logger.info(message)
+    while True:
+        hand = generate_hand(num_cards=5)
+        logger.info(hand)
         # Use the time module to pause execution for a specified number of seconds
         # The time.sleep() function takes a single argument: the number of seconds to pause
         time.sleep(interval_secs)
