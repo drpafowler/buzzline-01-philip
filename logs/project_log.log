@@ -16,3 +16,27 @@
 2025-01-14 08:56:54.315 | INFO     | __main__:main:100 - [('9', 'Hearts'), ('J', 'Spades'), ('10', 'Spades'), ('7', 'Clubs'), ('4', 'Spades')]
 2025-01-14 08:56:57.316 | INFO     | __main__:main:100 - [('A', 'Clubs'), ('A', 'Spades'), ('Q', 'Clubs'), ('K', 'Clubs'), ('9', 'Clubs')]
 2025-01-14 08:57:00.318 | INFO     | __main__:main:100 - [('J', 'Hearts'), ('3', 'Hearts'), ('9', 'Clubs'), ('10', 'Clubs'), ('10', 'Diamonds')]
+2025-01-14 09:06:23.832 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-14 09:06:23.832 | INFO     | __main__:main:91 - START producer...
+2025-01-14 09:06:23.832 | INFO     | __main__:main:92 - Hit CTRL c (or CMD c) to close.
+2025-01-14 09:06:23.832 | INFO     | __main__:get_hand_interval:53 - Hands will be sent every 3 seconds.
+2025-01-14 09:06:23.832 | INFO     | __main__:main:100 - [('7', 'Hearts'), ('Q', 'Spades'), ('4', 'Hearts'), ('4', 'Clubs'), ('10', 'Diamonds')]
+2025-01-14 09:06:26.842 | INFO     | __main__:main:100 - [('J', 'Hearts'), ('5', 'Spades'), ('7', 'Clubs'), ('8', 'Clubs'), ('A', 'Hearts')]
+2025-01-14 09:06:29.843 | INFO     | __main__:main:100 - [('5', 'Hearts'), ('7', 'Hearts'), ('A', 'Spades'), ('K', 'Clubs'), ('K', 'Hearts')]
+2025-01-14 09:06:32.844 | INFO     | __main__:main:100 - [('10', 'Hearts'), ('Q', 'Diamonds'), ('8', 'Diamonds'), ('6', 'Hearts'), ('K', 'Hearts')]
+2025-01-14 09:06:35.845 | INFO     | __main__:main:100 - [('10', 'Diamonds'), ('A', 'Hearts'), ('K', 'Spades'), ('2', 'Spades'), ('9', 'Diamonds')]
+2025-01-14 09:06:38.847 | INFO     | __main__:main:100 - [('2', 'Diamonds'), ('A', 'Diamonds'), ('9', 'Clubs'), ('7', 'Hearts'), ('9', 'Diamonds')]
+2025-01-14 09:06:41.847 | INFO     | __main__:main:100 - [('Q', 'Spades'), ('K', 'Hearts'), ('4', 'Clubs'), ('7', 'Hearts'), ('2', 'Clubs')]
+2025-01-14 09:06:44.849 | INFO     | __main__:main:100 - [('7', 'Diamonds'), ('10', 'Diamonds'), ('9', 'Hearts'), ('J', 'Hearts'), ('Q', 'Diamonds')]
+2025-01-14 09:06:47.850 | INFO     | __main__:main:100 - [('7', 'Diamonds'), ('6', 'Hearts'), ('K', 'Diamonds'), ('2', 'Clubs'), ('Q', 'Diamonds')]
+2025-01-14 09:06:50.851 | INFO     | __main__:main:100 - [('6', 'Diamonds'), ('8', 'Clubs'), ('5', 'Clubs'), ('4', 'Hearts'), ('J', 'Diamonds')]
+2025-01-14 09:06:53.852 | INFO     | __main__:main:100 - [('J', 'Diamonds'), ('2', 'Diamonds'), ('J', 'Hearts'), ('2', 'Hearts'), ('4', 'Spades')]
+2025-01-14 09:06:56.852 | INFO     | __main__:main:100 - [('3', 'Diamonds'), ('5', 'Diamonds'), ('9', 'Spades'), ('J', 'Diamonds'), ('3', 'Clubs')]
+2025-01-14 09:07:36.030 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-14 09:07:36.030 | INFO     | __main__:main:72 - START...
+2025-01-14 09:07:36.030 | INFO     | __main__:main:78 - Reading file located at logs\project_log.log.
+2025-01-14 09:07:43.783 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-14 09:07:43.783 | INFO     | __main__:main:91 - START producer...
+2025-01-14 09:07:43.783 | INFO     | __main__:main:92 - Hit CTRL c (or CMD c) to close.
+2025-01-14 09:07:43.783 | INFO     | __main__:get_hand_interval:53 - Hands will be sent every 3 seconds.
+2025-01-14 09:07:43.783 | INFO     | __main__:main:100 - [('5', 'Spades'), ('4', 'Diamonds'), ('Q', 'Clubs'), ('8', 'Diamonds'), ('5', 'Clubs')]

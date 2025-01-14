@@ -16,13 +16,13 @@ import time
 from utils.utils_logger import logger, get_log_file_path
 
 #####################################
-# Define a function to process a single message
+# Define a function to process a poker hand
 # #####################################
 
 
-def process_message(log_file) -> None:
+def process_hand(log_file) -> None:
     """
-    Read a log file and process each message.
+    Read a log file and process each poker hand.
 
     Args:
         log_file (str): The path to the log file to read.
@@ -30,7 +30,7 @@ def process_message(log_file) -> None:
     with open(log_file, "r") as file:
         # Move to the end of the file
         file.seek(0, os.SEEK_END)
-        print("Consumer is ready and waiting for a new log message...")
+        print("Waiting on the dealer to deal a hand...")
 
         # Use while True loop so the consumer keeps running forever
         while True:
@@ -46,15 +46,19 @@ def process_message(log_file) -> None:
                 # Keep checking for new log entries
                 continue
 
-            # We got a new log entry!
-            # Remove any leading/trailing white space and log the message
-            message = line.strip()
-            print(f"Consumed log message: {message}")
+            # We got a new poker hand!
+            # Remove any leading/trailing white space and log the poker hand
+            hand = line.strip()
+            print(f"New poker hand: {hand}")
 
-            # monitor and alert on special conditions
-            if "I just loved a movie! It was funny." in message:
-                print(f"ALERT: The special message was found! \n{message}")
-                logger.warning(f"ALERT: The special message was found! \n{message}")
+            # Check for a royal flush in the poker hand
+            royal_flush = {"10", "J", "Q", "K", "A"}
+            hand_set = set(hand.split())
+
+            if royal_flush.issubset(hand_set):
+                print(f"ALERT: We got a royal flush! \n{hand}")
+                logger.warning(f"ALERT: The royal flush was found! \n{hand}")
+
 
 
 #####################################
@@ -74,10 +78,10 @@ def main() -> None:
     logger.info(f"Reading file located at {log_file_path}.")
 
     try:
-        # Try to call the process_message function with the log file path
+        # Try to call the process_hand function with the log file path
         # as an argument. We know things will go wrong
         # eventually when the user stops the process, so we use a try block.
-        process_message(log_file_path)
+        process_hand(log_file_path)
 
     except KeyboardInterrupt:
         print("User stopped the process.")
